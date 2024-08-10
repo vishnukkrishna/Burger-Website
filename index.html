@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== FAVICON ===============-->
+    <!--=============== Favicon ===============-->
     <link
       rel="shortcut icon"
       href="assets/img/favicon.png"
       type="image/x-icon"
     />
 
-    <!--=============== REMIXICONS ===============-->
+    <!--=============== Remixicons ===============-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
@@ -23,36 +23,72 @@
     <title>Burger | Website</title>
   </head>
   <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header"></header>
+    <!--==================== Header ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <div>
+            <img src="assets/img/logo-burger.svg" alt="image" />
+          </div>
+          Burger
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li>
+              <a href="#recipe" class="nav__link">Recipe</a>
+            </li>
+            <li>
+              <a href="#popular" class="nav__link">Popular</a>
+            </li>
+            <li>
+              <a href="#delivery" class="nav__link">Delivery</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <!-- Close Button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+        <!-- Toggle Button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-fill"></i>
+        </div>
+      </nav>
+    </header>
 
-    <!--==================== MAIN ====================-->
+    <!--==================== Main ====================-->
     <main class="main">
-      <!--==================== HOME ====================-->
+      <!--==================== Home ====================-->
       <section class="home section" id="home"></section>
 
-      <!--==================== RECIPE ====================-->
+      <!--==================== Recipe ====================-->
       <section class="recipe section" id="recipe"></section>
 
-      <!--==================== POPULAR ====================-->
+      <!--==================== Popular ====================-->
       <section class="popular section" id="popular"></section>
 
-      <!--==================== DELIVERY ====================-->
+      <!--==================== Delivery ====================-->
       <section class="delivery section" id="delivery"></section>
 
-      <!--==================== CONTACT ====================-->
+      <!--==================== Contact ====================-->
       <section class="contact section" id="contact"></section>
     </main>
 
-    <!--==================== FOOTER ====================-->
+    <!--==================== Footer ====================-->
     <footer class="footer"></footer>
 
-    <!--========== SCROLL UP ==========-->
+    <!--========== Scroll Up ==========-->
 
-    <!--=============== SCROLLREVEAL ===============-->
+    <!--=============== ScrollReveal ===============-->
     <script src=""></script>
 
-    <!--=============== MAIN JS ===============-->
+    <!--=============== Main JS ===============-->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
